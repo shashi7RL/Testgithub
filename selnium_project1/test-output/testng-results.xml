@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32457" started-at="2023-01-09T17:40:23 IST" finished-at="2023-01-09T17:40:55 IST">
+  <suite started-at="2023-01-09T18:20:39 IST" name="Suite" finished-at="2023-01-09T18:21:17 IST" duration-ms="37995">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32457" started-at="2023-01-09T17:40:23 IST" finished-at="2023-01-09T17:40:55 IST">
+    <test started-at="2023-01-09T18:20:39 IST" name="Test" finished-at="2023-01-09T18:21:17 IST" duration-ms="37995">
       <class name="mytra.test.MytraTest">
-        <test-method status="PASS" signature="launcBrowser()[pri:0, instance:mytra.test.MytraTest@42f93a98]" name="launcBrowser" is-config="true" duration-ms="11221" started-at="2023-01-09T17:40:12 IST" finished-at="2023-01-09T17:40:23 IST">
+        <test-method is-config="true" signature="launcBrowser()[pri:0, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:20:32 IST" name="launcBrowser" finished-at="2023-01-09T18:20:39 IST" duration-ms="7066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcBrowser -->
-        <test-method status="PASS" signature="loginToMytra()[pri:1, instance:mytra.test.MytraTest@42f93a98]" name="loginToMytra" duration-ms="3897" started-at="2023-01-09T17:40:23 IST" finished-at="2023-01-09T17:40:27 IST">
+        <test-method signature="loginToMytra()[pri:1, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:20:39 IST" name="loginToMytra" finished-at="2023-01-09T18:20:46 IST" duration-ms="7511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToMytra -->
-        <test-method status="PASS" signature="loginToProfile(java.lang.String)[pri:2, instance:mytra.test.MytraTest@42f93a98]" name="loginToProfile" duration-ms="2297" started-at="2023-01-09T17:40:27 IST" finished-at="2023-01-09T17:40:29 IST">
+        <test-method signature="loginToProfile(java.lang.String)[pri:2, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:20:46 IST" name="loginToProfile" finished-at="2023-01-09T18:20:50 IST" duration-ms="3995" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,33 +26,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToProfile -->
-        <test-method status="PASS" signature="validateHomeAndLiving()[pri:3, instance:mytra.test.MytraTest@42f93a98]" name="validateHomeAndLiving" duration-ms="3323" started-at="2023-01-09T17:40:29 IST" finished-at="2023-01-09T17:40:32 IST">
+        <test-method signature="validateHomeAndLiving()[pri:3, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:20:50 IST" name="validateHomeAndLiving" finished-at="2023-01-09T18:20:54 IST" duration-ms="3496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHomeAndLiving -->
-        <test-method status="FAIL" signature="validateSortByItems()[pri:4, instance:mytra.test.MytraTest@42f93a98]" name="validateSortByItems" duration-ms="22836" started-at="2023-01-09T17:40:32 IST" finished-at="2023-01-09T17:40:55 IST">
+        <test-method signature="validateSortByItems()[pri:4, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:20:54 IST" name="validateSortByItems" finished-at="2023-01-09T18:21:17 IST" duration-ms="22879" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
   (Session info: chrome=108.0.5359.125)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'
-System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 07e5c4e3022b25f892aa43574c6832cd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e2e1f8c1020f8140dfa78f75d7c815e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
   (Session info: chrome=108.0.5359.125)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'
-System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 07e5c4e3022b25f892aa43574c6832cd
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e2e1f8c1020f8140dfa78f75d7c815e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -61,17 +62,17 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy10.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
 at mytra.test.MytraTest.validateSortByItems(MytraTest.java:122)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -80,7 +81,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -102,29 +103,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSortByItems -->
-        <test-method status="FAIL" signature="validateFancyMart()[pri:5, instance:mytra.test.MytraTest@42f93a98]" name="validateFancyMart" duration-ms="47" started-at="2023-01-09T17:40:55 IST" finished-at="2023-01-09T17:40:55 IST">
+        <test-method signature="validateFancyMart()[pri:5, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:21:17 IST" name="validateFancyMart" finished-at="2023-01-09T18:21:17 IST" duration-ms="60" status="FAIL">
           <exception class="org.openqa.selenium.JavascriptException">
             <message>
               <![CDATA[javascript error: arugments is not defined
   (Session info: chrome=108.0.5359.125)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'
-System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 07e5c4e3022b25f892aa43574c6832cd]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e2e1f8c1020f8140dfa78f75d7c815e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.JavascriptException: javascript error: arugments is not defined
   (Session info: chrome=108.0.5359.125)
 Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'
-System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_341'
+System info: host: 'SHASHI-SK7', ip: '192.168.83.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53746}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 07e5c4e3022b25f892aa43574c6832cd
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.22 (ec46c90f5938..., userDataDir: C:\Users\SASIKU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e2e1f8c1020f8140dfa78f75d7c815e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -133,10 +135,10 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
 at mytra.test.MytraTest.validateFancyMart(MytraTest.java:161)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -145,7 +147,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -167,7 +169,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFancyMart -->
-        <test-method status="PASS" signature="close()[pri:0, instance:mytra.test.MytraTest@42f93a98]" name="close" is-config="true" duration-ms="218" started-at="2023-01-09T17:40:55 IST" finished-at="2023-01-09T17:40:56 IST">
+        <test-method is-config="true" signature="close()[pri:0, instance:mytra.test.MytraTest@101952da]" started-at="2023-01-09T18:21:17 IST" name="close" finished-at="2023-01-09T18:21:17 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

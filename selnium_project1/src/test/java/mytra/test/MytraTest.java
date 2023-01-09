@@ -93,17 +93,7 @@ public class MytraTest extends EnvrFiles{
 	
 	public void validateSortByItems() throws IOException, InterruptedException {
 		
-		/*
-		 * WebElement SortItems = MytraPages.dropdownSortByItems;
-		 * 
-		 * Select ItemsList = new Select(SortItems);
-		 * 
-		 * List<WebElement> UIList = ItemsList.getOptions();
-		 * 
-		 * for (WebElement listofItems : UIList) {
-		 * 
-		 * System.out.println(listofItems.getAttribute("UIvalues")); }
-		 */
+		
 	
 	PageFactory.initElements(driver,MytraPages.class);
 	
