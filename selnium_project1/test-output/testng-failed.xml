@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Mobilenumber" value="9876543210"/>
+    <classes>
+      <class name="mytra.test.MytraTest">
+        <methods>
+          <include name="validateSortByItems"/>
+          <include name="close"/>
+          <include name="validateFancyMart"/>
+          <include name="launcBrowser"/>
+        </methods>
+      </class> <!-- mytra.test.MytraTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
