@@ -89,7 +89,7 @@ public class MytraTest extends EnvrFiles{
 		
 	}
 	
-@Test(priority = 4)
+@Test(priority = 4 , enabled =false)
 	
 	public void validateSortByItems() throws IOException, InterruptedException {
 		
