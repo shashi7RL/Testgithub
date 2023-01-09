@@ -145,7 +145,7 @@ public void validateFancyMart() throws IOException {
 	
 	PageFactory.initElements(driver,MytraPages.class);
 	
-	WebElement fancyMart = MytraPages.lnkFancyMart;
+	WebElement fancyMart = MytraPages.profileIcon;
 	
 	JavascriptExecutor clickFacnyMart = (JavascriptExecutor) driver;
 	clickFacnyMart.executeScript("arugments[0].scrollIntiview(true)",fancyMart);
